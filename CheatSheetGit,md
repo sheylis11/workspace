@@ -1,0 +1,20 @@
+##MANUAL##
+
+#Manual# basico de commit,push,pull#
+
+*commit:* 
+Es los cambios realizados en los achivos de tus proyectos,cuando haces un commit se guardan  los cambios que haces en ti repositorio git como "guardar" una vercion espesifica de tu trabajo.se pueden colocar uno o multiples archivos
+
+*push:*
+Envia los commits locales a un repositorio remoto en GitHub,esto junta  tus cambios locales  con el serividor,permitiendo que otros colavoradores vean y accedan a ellos.
+
+*pull:*
+Descarga los cambios más recientes desde el repositorio remoto (GitHub) a tu repositorio local.incluye los commits de otros como lostuyos soo si hay actualizacion.
+
+>git add
+
+*sirve para guardar el proceso hecho*
+
+>git push
+
+*sirve para expulzar todo a GitHub*
