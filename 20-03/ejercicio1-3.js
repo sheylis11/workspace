@@ -15,3 +15,6 @@ const carniboro="si";
 console.log("el animal es carniboro?: ");
 console.log(carniboro);
 carniboro = "hervivoro"
+
+//const= valor fijo,no cambia. let= valor que si puedes cambiar//
+
