@@ -1,15 +1,15 @@
-let x = 10;
-let y = 5;
+let num1 = 6;
+let num2 = 7;
+console.log(num1 == num2);
+console.log(num1 === num2);
+console.log(num1 != num2);
+console.log(num1 !== num2);
+console.log(num1 > num2);
+console.log(num1 < num2);
+console.log(num1 >= num2);
+console.log(num1 <= num2);
 
-console.log(x == y);
-console.log(x === y);
-console.log(x != y);
-console.log(x !== y);
-console.log(x > y);
-console.log(x < y);
-console.log(x >= y);
-console.log(x <= y);
-
-// comparación especial
-console.log(5 == "5");  // true
-console.log(5 === "5"); // false
+let num = 5;
+let numstring = "5";
+console.log(num == numstring);
+console.log(num === numstring);
