@@ -1,3 +1,2 @@
 let temperatura = 35;
-
-console.log(temperatura > 30 ? "Hace calor" : "Clima agradable");
+temperatura > 30 ? console.log("hay que Calor") : console.log("Fresquito");
