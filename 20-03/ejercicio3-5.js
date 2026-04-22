@@ -1,7 +1,5 @@
 let csv = "manzana,pera,uva,mango,banano";
-
-let frutas = csv.split(",");
-
-console.log(frutas);
-console.log(frutas.length);
-console.log(frutas.join(" - "));
+let separado = csv.split(",");
+console.log(separado.length);
+let unido=separado.join("-");
+console.log(unido);

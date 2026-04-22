@@ -1,4 +1,5 @@
-let texto = "JavaScript es difícil";
-
-console.log(texto.slice(14));
-console.log(texto.replace("difícil", "poderoso"));
+let cadena= "JavaScript es difícil";
+let palabra=cadena.slice(14);
+console.log(palabra);
+let nuevaf=cadena.replace("dificil","poderoso");
+console.log(nuevaf);

@@ -1,5 +1,5 @@
-let nombre = "Juan";
-let edad = 20;
+let nombre = "Sheyla";
+let edad = 16;
 let ciudad = "Medellín";
 
-console.log(Hola, me llamo ${nombre}, tengo ${edad} años y soy de ${ciudad}.);
+console.log(`Hola, mi nombre es: ${nombre}, tengo ${edad} años y soy de ${ciudad}`);
