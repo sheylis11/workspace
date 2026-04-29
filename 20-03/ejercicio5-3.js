@@ -1,7 +1,7 @@
 let saldo = 1000;
-while (saldo > 0) {
-    saldo -= 150;
-    if (saldo < 0) saldo = 0; // Para no mostrar saldos negativos
-    console.log("Saldo actual: " + saldo);
+while (saldo > 0) 
+{
+    console.log(saldo)
+    saldo= saldo-150
 }
 console.log("Saldo agotado");
