@@ -66,8 +66,6 @@ async function soloNombres() {
 
   }
 }
-
-// Obtener otra página usando el parámetro page
 async function obtenerPagina(numeroPagina) {
   try {
 
