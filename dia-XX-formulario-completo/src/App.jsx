@@ -46,7 +46,20 @@ export default function App() {
     if (age && Number(age) <= 0) { alert('La edad debe ser mayor a 0'); return }
 
     setSubmittedData({
-      name, email, password: '••••••', age, dob, exp, accept, languages, mode, country, comments, color, photoName: photo?.name || null
+      name,
+      email,
+      password: '••••••',
+      age,
+      dob,
+      exp,
+      accept,
+      languages,
+      mode,
+      country,
+      comments,
+      color,
+      photoName: photo?.name || null,
+      photoPreview
     })
   }
 
@@ -70,9 +83,10 @@ export default function App() {
         <label>Fecha de nacimiento</label>
         <input type="date" value={dob} onChange={e => setDob(e.target.value)} />
 
-        <label>Experiencia: <span className="muted">{exp}</span></label>
+        <label>Experiencia</label>
         <div className="row">
           <input type="range" min="1" max="10" value={exp} onChange={e => setExp(e.target.value)} />
+          <div className="muted small">{exp}</div>
         </div>
 
         <label>
@@ -127,6 +141,11 @@ export default function App() {
           <div><strong>Comentarios:</strong> {submittedData.comments}</div>
           <div><strong>Color favorito:</strong> <span style={{display:'inline-block', width:20, height:20, background: submittedData.color, border:'1px solid #ccc', marginLeft:8}} /></div>
           <div><strong>Foto:</strong> {submittedData.photoName || 'No subida'}</div>
+          {submittedData.photoPreview && (
+            <div style={{marginTop:8}}>
+              <img src={submittedData.photoPreview} alt="preview" className="preview" />
+            </div>
+          )}
         </div>
       )}
     </div>

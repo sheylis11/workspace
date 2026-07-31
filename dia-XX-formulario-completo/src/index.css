@@ -9,3 +9,7 @@ input[type='text'], input[type='email'], input[type='password'], input[type='num
 .summary { margin-top: 18px; padding: 12px; background: #eef2ff; border-radius: 6px; }
 .muted { color: #6b7280; font-size: 0.9rem }
 .actions { margin-top: 16px; }
+
+button { padding: 8px 14px; border-radius: 6px; border: 1px solid #111827; background: #111827; color: white; cursor: pointer; }
+button[disabled] { opacity: 0.5; cursor: not-allowed; }
+
