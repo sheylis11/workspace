@@ -71,7 +71,7 @@ export default function App() {
         <input type="text" value={name} onChange={e => setName(e.target.value)} required />
 
         <label>Correo</label>
-        <input type="email" value={email} onChange={e => setEmail(e.target.value)} />
+        <input type="email" value={email} onChange={e => setEmail(e.target.value)} required />
         <div className="muted">{email ? (emailValid ? 'Email válido' : 'Email inválido') : ''}</div>
 
         <label>Contraseña</label>
