@@ -1,0 +1,15 @@
+Taller de Debugging en React
+
+Proyecto: 2026-06-17
+Archivos modificados:
+- src/App.jsx
+- src/App.css
+
+Este taller instala una app React con 5 errores de debugging intencionales ya corregidos:
+- Bug 1: tarea sin categoría provoca error al llamar .toUpperCase()
+- Bug 2: useEffect sin dependencias provocaba render infinito
+- Bug 3: comparación de booleano contra string
+- Bug 4: mutación de estado con push() en lugar de crear nuevo arreglo
+- Bug 5: error async no atrapado en carga de perfil
+
+El proyecto ya fue construido correctamente con `npm run build`.
