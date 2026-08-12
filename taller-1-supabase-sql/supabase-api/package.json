@@ -1,0 +1,16 @@
+{
+  "name": "supabase-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "get": "node get-estudiantes.js",
+    "post": "node post-estudiante.js",
+    "patch": "node patch-estudiante.js",
+    "delete": "node delete-estudiante.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.1",
+    "dotenv": "^16.3.1"
+  }
+}
